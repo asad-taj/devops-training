@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . .
 
 RUN pip install gunicorn
-RUN pip install -r requirements.txt
+RUN pip install -r requirments.txt
 
 # Expose the port on which the Flask app will run
 EXPOSE 8080
